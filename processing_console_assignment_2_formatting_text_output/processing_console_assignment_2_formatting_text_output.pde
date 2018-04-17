@@ -25,9 +25,9 @@ void setup() {
    int team3Losses = 9;
    
    
-   int team1points = 14;
-   int team2points = 30;
-   int team3points = 22;
+   int team1points = team1Wins*2;
+   int team2points = team2Wins*2;
+   int team3points = team3Wins*2;
    
    
    println ("Team\t\tWins\t\tLosses\t\tPoints");
